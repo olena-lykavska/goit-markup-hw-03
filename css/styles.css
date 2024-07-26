@@ -95,10 +95,6 @@ address{
     gap: 40px;
 }
 
-.header-menu-link-studio:active{
-    text-decoration:underline;  
-}
-
 .header-contact-list{
     display: flex;
     margin-left: auto;
