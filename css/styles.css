@@ -99,6 +99,10 @@ address{
 padding: 24px 0;
 }
 
+.logo{
+    padding: 24px 0;
+}
+
 
 .header-contact-list{
     display: flex;
