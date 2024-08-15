@@ -95,17 +95,18 @@ address{
     gap: 40px;
 }
 
-.header-contact-list{
-    display: flex;
-    margin-left: auto;
+.header-menu-item{
+padding: 24px 0;
 }
 
+
 .header-contact-list{
+    display: flex;
+    gap: 40px;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    gap: 40px;
 }
 
 .header-contact-link{
@@ -152,6 +153,7 @@ address{
     display: block;
     margin: 0 auto;
     margin-top: 58px;
+    min-width: 169px;
 }
 
 /* ==================================== */
@@ -174,7 +176,7 @@ address{
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 18px;
+    margin-bottom: 8px;
 }
 
 .features-text{
@@ -248,6 +250,10 @@ address{
     display: flex;
     gap: 24px;
 }
+
+.team-wrap{
+    padding: 32px 0;
+}
 /* ==================================== */
 /* ==================PORTFOLIO================== */
 .portfolio{
@@ -267,7 +273,6 @@ address{
 .portfolio-item{
     width: 360px;
     height: 420px;
-    border: 1px solid #e7e9fc;
 }
 
 .portfolio-list{
@@ -296,12 +301,26 @@ address{
     color: #434455;
     padding-left: 16px;
 }
+
+.portfolio-item-wrap{
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+margin-bottom: 8px;
+}
+
+
 /* ==================================== */
 /* ==================FOOTER================== */
-footer{
+.footer{
     background-color:#2e2f42;;
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .logo-white{
